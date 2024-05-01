@@ -1,0 +1,16 @@
+.finance {
+  display: flex;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  color: rgb(219, 248, 207);
+  font-size: calc(3.07vw + 40.25px);
+}
+.left-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: start;
+  margin-right: 100px;
+}

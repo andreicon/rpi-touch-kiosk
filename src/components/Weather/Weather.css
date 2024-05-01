@@ -1,0 +1,20 @@
+.weather {
+  display: flex;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  color: rgb(219, 248, 207);
+  font-size: 32px;
+}
+  
+.left-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: end;
+}
+.weather-icon {
+  width: 180px;
+  height: 180px;
+}

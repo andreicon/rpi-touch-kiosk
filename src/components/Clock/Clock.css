@@ -1,0 +1,28 @@
+.clock {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  color: rgb(219, 248, 207);
+}
+
+.time {
+  font-size: 148px;
+  font-family: 'Fira Code', monospace;
+  padding-left: 1rem;
+  border-left: 5px solid #1D007C;
+  border-bottom: 5px solid rgb(9, 9, 136);
+  border-radius: 10px;
+  width: 580px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sec {
+  font-size: calc(0.38vw + 20.7px);
+  color: yellow;
+  position: relative;
+  top: 40px;
+}
